@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=IBM+Plex+Mono:wght@600&family=Montserrat:wght@100;200;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron&family=Oswald:wght@200;400&family=Poppins:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,500&display=swap');
+
+body{
+    background-color: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    size: 10%;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    margin-left: 200px;
+    font-family: "Open Sans";
+   
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+.list-items>span{
+    font-weight: 700;
+}
+
+.reg-button{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.reg-b{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: #66C5FF;
+    font-family: "Open Sans";
+    border-color: #66C5FF;
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* package part */
+
+.package{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 100px;
+}
+
+.package-col-1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.pack-heading{
+    align-items: center;
+}
+
+
+.pack-heading>h1{
+    font-size: 60px;
+    font-family: "Open Sans";
+    margin-left: 60px;
+}
+
+
+.pack-description{
+}
+
+.pack-description>p{
+    font-size: 20px;
+    font-family: "Open Sans";
+    margin-left: 60px;
+
+}
+
+.pack-button{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.pack-btn{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color:#ffffff;
+    font-family: "Open Sans";
+    background-image: linear-gradient(to bottom right ,#66C5FF , rgb(0, 94, 255));
+    padding: 20px 30px 20px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 1px 1px 10px #66C5FF;
+
+}
+
+.package-col-2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    justify-content: center;
+
+}
+
+.pack-image{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.pck-img{
+    height: 80%;
+    width: 80%;
+    margin-top: 60px;
+
+}
+
+/* product description */
+.product-description{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 50px;
+}
+
+
+.product-description-col-1{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+}
+
+.prod-image{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.prod-img{
+    height: 80%;
+    width: 80%;
+    margin-top: 60px;
+}
+
+
+.product-description-col-2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+
+.prod-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.prod-heading>h1{
+    font-size: 60px;
+    font-family: "Open Sans";
+
+}
+
+
+.prod-description{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.prod-description>p{
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+
+.prod-button{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.prod-b{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+    font-family: "Open Sans";
+    border-color: #66C5FF;
+    background-image: linear-gradient(to bottom right ,#66C5FF , rgb(0, 94, 255));
+    padding: 20px 30px 20px 30px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+/* tech-support */
+
+.tech-support{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 20px;  
+}
+
+.tech-support-col-1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    margin-top: 80px;
+}
+
+.tech-support-heading{
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-support-heading>h1{
+    font-size: 60px;
+    font-family: "Open Sans";
+    margin-left: 60px;    
+}
+
+
+.tech-support-description{
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-support-description>p{
+    font-size: 20px;
+    font-family: "Open Sans"; 
+    margin-left: 60px;
+}
+
+.tech-support-button{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.tech-support-b{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    color: rgb(230, 230, 230);
+    font-family: "Open Sans";
+    border-color: #66C5FF;
+    background-image: linear-gradient(to bottom right ,#66C5FF , rgb(0, 94, 255));
+    padding: 20px 30px 20px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+
+.tech-support-col-2{
+    display: flex;
+    flex: 0.5;
+}
+
+.tech-support-image{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.tech-support-img{
+    height: 80%;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+/* services */
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #ffffff;
+    font-family: "Open Sans";
+   
+}
+
+.services-container-row-1{
+    display: flex;
+    flex-direction: row;
+    flex: 0.3;
+    justify-content: space-between;
+}
+
+.service-heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.serv-head{
+    font-size: 60px;
+    font-family: "Open Sans";
+    margin-left: 60px;
+    
+
+}
+
+.serv-des{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: "Open Sans";
+    margin-right: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.services-container-row-2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.7;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.serv{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 320px;
+    margin: 80px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.heads{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: "Open Sans";
+    height: 80px;
+    margin-top: -30px;
+}
+
+.dess{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: "Open Sans";
+    line-height: 30px;
+
+}
+
+.service-1{
+   
+
+}
+
+.imgs.img-1{
+
+}
+
+.heads.s-head-1{
+
+}
+.dess.des-1{
+
+}
+/* services end */
+
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 60px;
+    background-image: linear-gradient(to bottom right ,#66C5FF , rgb(0, 94, 255));
+   
+}
+
+
+
+.pricing-col1{
+    display: flex;
+    flex-direction: row;
+    flex: 0.3;
+    width: 100%;
+    justify-content: center;
+    
+
+
+}
+
+.pricing-heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Open Sans";
+    color: #ffffff;
+
+}
+
+
+.pricing-col2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.7;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+
+}
+.price-col{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 340px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: "Open Sans";
+    
+    
+}
+
+.price-head{
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    height: 80px;
+    margin-left: 30px;
+
+}
+
+.price-des{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(152, 147, 147);
+    border-radius:0px 0px 8px 8px ;
+    margin-left: 30px;
+   
+}
+
+.pricing-2-heading{
+    color: #ffffff;
+}
+
+.pricing-2-description{
+    color: #ffffff;
+}
+
+.black-bcg{
+    background-color: black;
+    border-radius: 8px;
+}
+
+.price{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 40px;
+}
+.price>h3>span{
+    color: rgb(123, 115, 115);
+}
+
+.option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.prc-ben{
+    display: flex;
+    flex-direction: column;
+    list-style-type: square;
+    
+}
+
+.prc-li{
+    color: black;  
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    margin-left: 30px;
+}
+
+.prc-li-i{
+    
+    
+}
+
+.p-btn{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   margin-top: 30px;
+   font-family: "Open Sans";
+   margin-bottom: 20px;
+}
+
+.p-btn>button{
+    border: 2px solid #66C5FF;
+    border-radius: 8px;
+    padding: 10px 30px 10px 30px;
+    font-family: "Open Sans";
+    color: #66C5FF;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #ffffff;
+
+}
+
+.pricing-2-button>button{
+    background-image: linear-gradient(to bottom right ,#66C5FF , rgb(0, 94, 255));
+    color: #ffffff;
+    box-shadow: 1px 1px 10px rgb(151, 194, 233);
+}
+
+
+
+/* customer-reviews starts here */
+
+.customer-reviews{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #fffefe;
+}
+
+.customer-reviews-col-1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    align-items: center;
+}
+
+.customer-reviews-heading{
+    display: flex;
+    font-family: "Open Sans";
+    font-size: 30px;
+
+}
+
+.customer-reviews-description{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+.customer-reviews-description>p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.customer-reviews-col-2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.7;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0px 100px 0px;
+}
+
+.cus-rev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 30px 10px 30px;
+    width: 600px;
+    font-size: 18px;
+    font-family: "Open Sans";
+    line-height: 30px;
+    border-radius: 8px;
+
+}
+.cust-des{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cust-rev-footer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+
+}
+.c-r-col-1{
+    display: flex;
+    flex-direction: row;
+    flex: 0.1;
+    align-items: center;
+
+}
+.c-r-col-2{
+    display: flex;
+    flex-direction: column;
+    flex: 0.9;
+    justify-content: center;
+
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 80px;
+    justify-self: left;
+    border-radius: 50%;
+    background-color: rgb(178, 185, 188);
+
+}
+
+.cust-name{
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans";
+    font-weight: 700;
+
+}
+
+.cust-desig{
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans";
+    font-size: 14px;
+
+}
+.customer-review-1{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 40px rgb(223, 218, 218);
+
+}
+.customer-review-2{
+    background-color: transparent;
+
+}
+.customer-review-3{
+    background-color: transparent;
+
+}
+.customer-review-4{
+    background-color: transparent;
+
+}
+/* second-last-part starts */
+
+.second-last-part{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-image: linear-gradient(to bottom right ,#07A4F2 , rgb(0, 94, 255));
+}
+
+.second-last-part-col-1{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.second-last-part-heading{
+    display: flex;
+    font-family: "Open Sans";
+    font-size: 30px;
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-last-part-description{
+    display: flex;
+    font-family: "Open Sans";
+    font-size: 16px;
+    width: 100%;
+    height: 10px;
+    padding: 50px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.second-last-part-col-2{
+    display: flex;
+    flex-direction: row;
+    flex: 0.5;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-last-part-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.second-last-part-button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-family: "Open Sans";
+    justify-content: center;
+}
+.second-last-part-button>button{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 30px 10px 30px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* footer-part */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 450px;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.foot-logo-des{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    line-height: 30px;
+}
+
+.footer-logo{
+   display: flex;
+   height: 50px;
+   margin-left: 40px;
+}
+
+.foot-description{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: rgb(86, 85, 85);
+}
+
+
+.footer-lists{
+    display: flex;
+    flex-direction: row;
+    flex: 0.65;
+    line-height: 60px;
+    margin-top: 110px;
+    font-family: "Open Sans";
+    font-size: 16px;
+
+}
+
+.footer-list-1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+.footer-list-1-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.footer-list-1-items>span{
+    font-weight: 700;
+    
+}
+
+.footer-list-2{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    
+}
+
+.footer-list-2-items{
+    display: flex;
+    color: rgb(86, 85, 85);
+}

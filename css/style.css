@@ -89,6 +89,7 @@ body{
 
 
 .pack-description{
+    width: 100%;
 }
 
 .pack-description>p{
@@ -537,11 +538,8 @@ body{
     flex-direction: column;
     line-height: 50px;
     margin-left: 30px;
-}
-
-.prc-li-i{
-    
-    
+    list-style-type: none;
+    list-style-image: url('../p-11-assets/check\ \(1\).png');
 }
 
 .p-btn{
@@ -878,6 +876,7 @@ body{
     .package{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .pack-heading h1{
         font-size: 24px;
@@ -922,6 +921,7 @@ body{
         display: flex;
         flex-direction: column;
         margin: 0;
+        width: 100%;
        
     }
 
@@ -968,6 +968,7 @@ body{
     .tech-support{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .tech-support-heading h1{
         font-size: 24px;
@@ -1012,6 +1013,7 @@ body{
     .services-container{
         display: flex;
         flex-direction: column;
+        width: 100%;
 
     }
     .service-heading{
@@ -1090,7 +1092,7 @@ body{
         flex-direction: column;
         margin: 0;
         padding: 0;
-        /* gap: 20px; */
+        width: 100%;
     }
     .customer-reviews-col-1{
         display: flex;
@@ -1130,6 +1132,7 @@ body{
     .second-last-part{
         display: flex;
         flex-direction: column;
+        width: 100%;
 
     }
     
@@ -1168,6 +1171,7 @@ body{
         align-items: flex-start;
         height: fit-content;
         padding: 0;
+        width: 100%;
     }
     
     .foot-logo-des{
